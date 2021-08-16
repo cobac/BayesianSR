@@ -1,4 +1,4 @@
-[[https://github.com/cobac/BayesianSR/actions/workflows/Runtest.yml][https://github.com/cobac/BayesianSR/actions/workflows/Runtest.yml/badge.svg]]
+[[https://github.com/cobac/BayesianSR.jl/actions/workflows/Runtest.yml][https://github.com/cobac/BayesianSR.jl/actions/workflows/Runtest.yml/badge.svg]]
 
 Bayesian symbolic regression based on the algorithm described in http://arxiv.org/abs/1910.08892v3.
 
@@ -9,7 +9,7 @@ This code is an unreleased, unstable, without versioning package very much WIP.
 * Basic usage
 
 #+BEGIN_SRC julia :results silent :exports code
-  ] add https://github.com/cobac/BayesianSR
+  ] add https://github.com/cobac/BayesianSR.jl
   using BayesianSR  
 
   x = Matrix() # Rows: observations, columns: features  
